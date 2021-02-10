@@ -1,0 +1,12 @@
+1. EVEN OR ODD NUMBER
+
+STORE "number" with any value
+STORE "result" without any value
+
+CALCULATE "number" % 2
+SET "result" value with calculation result
+
+IF "result" equals 0
+    PRINT / DISPLAY "EVEN NUMBER"
+ELSE
+    PRINT / DISPLAY "ODD NUMBER"
