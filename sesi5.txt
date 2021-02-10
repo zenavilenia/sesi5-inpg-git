@@ -10,3 +10,34 @@ IF "result" equals 0
     PRINT / DISPLAY "EVEN NUMBER"
 ELSE
     PRINT / DISPLAY "ODD NUMBER"
+
+2. WHILE
+
+STORE "full level" with 0
+
+WHILE "full level" < 5
+    PRINT "full level"
+    ADD "full level" by 1
+
+PRINT "I'M FULL"
+
+/////////////////////////
+-> full level = 0
+-> full level < 5 ? true
+    -> print full level (0)
+    -> pull level + 1 = 1
+-> full level < 5 ? true
+    -> print full level (1)
+    -> pull level + 1 = 2
+-> full level < 5 ? true
+    -> print full level (2)
+    -> pull level + 1 = 3
+-> full level < 5 ? true
+    -> print full level (3)
+    -> pull level + 1 = 4
+-> full level < 5 ? true
+    -> print full level (4)
+    -> pull level + 1 = 5
+-> full level < 5 ? false
+-> print "I'M FULL"
+////////////////////////
