@@ -1,0 +1,32 @@
+1. Algoritma Luas_Keliling_Lingkaran
+
+STORE "phi" with 3.14
+STORE "R" with any value
+STORE "Luas" without any value
+STORE "Keliling" without any value
+
+SET "Luas" with ("phi" * "R" * "R")
+SET "Keliling" with (2 * "phi" * "R")
+
+WRITE "Luas"
+WRITE "Keliling"
+
+
+2. Menghitung Grade
+
+Terdapat inputan berupa nilai dari mahasiswa (0 - 100)
+Tampilkan "Grade A" bisa nilai di atas sama dengan 80
+"Grade B" bila nilai di atas sama dengan 73
+"Grade C" bisa nilai di atas sama dengan 60
+dan "Failed" bila nilai di bawah 60
+
+STORE "nilai" with value (0 - 100)
+
+IF "nilai" >= 80
+    PRINT "Grade A"
+ELSE IF "nilai" >= 73
+    PRINT "Grade B"
+ELSE IF "nilai" >= 60
+    PRINT "Grade C"
+ELSE
+    PRINT "Failed"
