@@ -41,3 +41,30 @@ PRINT "I'M FULL"
 -> full level < 5 ? false
 -> print "I'M FULL"
 ////////////////////////
+
+
+3.
+
+STORE "number" with any value
+
+IF "number" < 5
+    PRINT "NUMBER LOWER THAN 5"
+ELSE IF "number" < 10
+    PRINT "NUMBER LOWER THAN 10"
+ELSE IF "number" < 15
+    PRINT "NUMBER LOWER THAN 15"
+ELSE
+    PRINT "NUMBER > 15"
+
+//////// contoh conditional yg salah /////////
+
+IF "number" < 5
+    PRINT "NUMBER LOWER THAN 5"
+ELSE IF "number" < 15
+    PRINT "NUMBER LOWER THAN 15"
+ELSE IF "number" < 10
+    PRINT "NUMBER LOWER THAN 10"
+ELSE
+    PRINT "NUMBER > 15"
+
+//////////////////////////////////////////////
