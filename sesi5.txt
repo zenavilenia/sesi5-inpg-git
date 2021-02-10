@@ -11,6 +11,38 @@ IF "result" equals 0
 ELSE
     PRINT / DISPLAY "ODD NUMBER"
 
+
+//// contoh javascript /////
+var number = 9;
+var result;
+
+result = number % 2;
+
+if (result === 0) {
+    console.log("EVEN NUMBER")
+} else {
+    console.log("ODD NUMBER")
+}
+////////////////////////////
+
+////// contoh java ///////
+class Main {  
+  public static void main(String args[]) { 
+    int number = 10;
+    int result;
+    
+    result = number % 2;
+    
+    if (result == 0) {
+        System.out.println("EVEN NUMBER");
+    } else {
+        System.out.println("ODD NUMBER");
+    }
+  } 
+}
+//////////////////////////
+
+
 2. WHILE
 
 STORE "full level" with 0
